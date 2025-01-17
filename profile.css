@@ -6,7 +6,7 @@
     background-color: #24252A;
 }
 
-li, a, p, button {
+li, a, button {
     font-family: "montserrant", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -14,14 +14,19 @@ li, a, p, button {
     text-decoration: none;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
 li {
     list-style: none;
     display: inline-block;
-    
     padding: 0px 20px;
 }
 
 #isi li a{
+    cursor: pointer;
     transition: all 0.3 ease 0s;
 }
 
@@ -33,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
 }
 
 button{
@@ -46,6 +51,22 @@ button{
 }
 
 button:hover{
-    color: black;
-    background-color: white;
+    background-color: rgba(0,136,169,0.8);
+}
+
+#open {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#bio {
+    padding: 20px;
+}
+
+#profile {
+    padding: 20px;
 }
