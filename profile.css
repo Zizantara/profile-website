@@ -6,12 +6,27 @@
     background-color: #24252A;
 }
 
-li, a, button {
+li, a, p, button {
     font-family: "montserrant", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: white;
     text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    
+    padding: 0px 20px;
+}
+
+#isi li a{
+    transition: all 0.3 ease 0s;
+}
+
+#isi li a:hover{
+    color: #0088a9;
 }
 
 header {
