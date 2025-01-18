@@ -31,7 +31,7 @@ li {
 }
 
 #isi li a:hover{
-    color: #0088a9;
+    color: aqua;
 }
 
 header {
@@ -56,7 +56,7 @@ header {
 }
 
 #bio {
-    padding: 5%;
+    padding: 30px;
     align-items: center;
 }
 
@@ -70,14 +70,61 @@ header {
 }
 
 #bio h1{
+    padding: 2px;
     color: aqua;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #bio h4{
-    font-size: 25px;
+    padding: 2px;
+    font-size: 20px;
 }
 
 #bio h5{
-    font-size: 20px;
+    padding: 2px;
+    font-size: 15px;
 }
+
+#icon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#icon img{
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/* From Uiverse.io by niat786 */ 
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #4ce3f7, #0400ff );
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    }
+    
+    button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+    }
+    
+    @keyframes pulse512 {
+    0% {
+    box-shadow: 0 0 0 0 #05bada66;
+    }
+    
+    70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+    
+    100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+    }
