@@ -35,6 +35,9 @@ li {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +51,8 @@ header {
     position: relative;
     justify-content: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    right: 50px;
 }
 
 #bio {
@@ -57,10 +61,23 @@ header {
 }
 
 #profile {
-    padding: 20px;
+    padding: 0%;
 }
 
 #profile img{
     border: 5px solid aqua;
     border-radius: 50%;
+}
+
+#bio h1{
+    color: aqua;
+    font-size: 40px;
+}
+
+#bio h4{
+    font-size: 25px;
+}
+
+#bio h5{
+    font-size: 20px;
 }
