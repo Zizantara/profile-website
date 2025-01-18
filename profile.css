@@ -6,7 +6,7 @@
     background-color: #24252A;
 }
 
-li, a, button {
+li, a {
     font-family: "montserrant", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -41,32 +41,26 @@ header {
     padding: 20px 10%;
 }
 
-button{
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-}
-
-button:hover{
-    background-color: rgba(0,136,169,0.8);
-}
-
 #open {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    padding: 10%;
     position: relative;
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 #bio {
-    padding: 20px;
+    padding: 5%;
+    align-items: center;
 }
 
 #profile {
     padding: 20px;
+}
+
+#profile img{
+    border: 5px solid aqua;
+    border-radius: 50%;
 }
