@@ -35,6 +35,9 @@ li {
 
 #isi li a:hover{
     color: aqua;
+    padding: 4px;
+    border-bottom: 2px solid aqua;
+    width: fit-content;
 }
 
 header {
@@ -73,7 +76,7 @@ header::-webkit-scrollbar{
 }
 
 #profile img{
-    border: 5px solid aqua;
+    border: 3px solid aqua;
     border-radius: 50%;
 }
 
@@ -216,8 +219,36 @@ header::-webkit-scrollbar{
 
 .button:hover .button_sl {
     width: calc(100% + 15px);
-    } 
+} 
 
 .button:hover .button_lg::after {
     background-color: #fff;
-    }
+}
+
+#am h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    left: 10%;
+    border-bottom: 4px solid aqua;
+    width: fit-content;
+}
+
+#ab {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    right: 50px;    
+}
+
+#ab p{
+    
+}
+#ab img{
+    border: 3px solid aqua;
+    border-radius: 50%;
+}
