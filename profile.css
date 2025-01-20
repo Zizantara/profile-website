@@ -38,6 +38,7 @@ li {
     padding: 4px;
     border-bottom: 2px solid aqua;
     width: fit-content;
+
 }
 
 header {
@@ -237,7 +238,7 @@ header::-webkit-scrollbar{
 #ab {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    padding: 10%;
+    padding: 5%;
     position: relative;
     justify-content: center;
     display: flex;
@@ -246,9 +247,13 @@ header::-webkit-scrollbar{
 }
 
 #ab p{
-    
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-top: 2%;
 }
+
 #ab img{
     border: 3px solid aqua;
+    margin-left: 10%;
     border-radius: 50%;
 }
