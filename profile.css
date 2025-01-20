@@ -9,6 +9,10 @@ body {
     background-color: #121214;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 li, a {
     font-family: "montserrant", sans-serif;
     font-weight: 500;
@@ -50,10 +54,6 @@ header {
     align-items: center;
     padding: 20px 10%;
     overflow: auto;
-}
-
-header::-webkit-scrollbar{
-    display: none;
 }
 
 #open {
@@ -237,6 +237,7 @@ header::-webkit-scrollbar{
 
 #ab {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
     color: white;
     padding: 5%;
     position: relative;
@@ -256,4 +257,13 @@ header::-webkit-scrollbar{
     border: 3px solid aqua;
     margin-left: 10%;
     border-radius: 50%;
+}
+
+#sk h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    left: 10%;
+    border-bottom: 4px solid aqua;
+    width: fit-content;
 }
