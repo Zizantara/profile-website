@@ -46,6 +46,7 @@ li {
 }
 
 header {
+    background-color: #121214;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -231,13 +232,12 @@ header {
     color: white;
     position: absolute;
     left: 10%;
-    border-bottom: 4px solid aqua;
+    border-bottom: 3px solid aqua;
     width: fit-content;
 }
 
 #ab {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     color: white;
     padding: 5%;
     position: relative;
@@ -264,6 +264,6 @@ header {
     color: white;
     position: absolute;
     left: 10%;
-    border-bottom: 4px solid aqua;
+    border-bottom: 3px solid aqua;
     width: fit-content;
 }
