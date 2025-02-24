@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #121214;
+    background-color: #001F3F;
 }
 
 body::-webkit-scrollbar{
@@ -46,7 +46,7 @@ li {
 }
 
 header {
-    background-color: #121214;
+    background-color: #001F3F;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -105,7 +105,7 @@ header {
 }
 
 #icon img{
-    padding: 15px;
+    margin: 10px;
     border-radius: 50%;
 }
 
@@ -260,6 +260,15 @@ header {
 }
 
 #sk h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    left: 10%;
+    border-bottom: 3px solid aqua;
+    width: fit-content;
+}
+
+#cm h2{
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: absolute;
